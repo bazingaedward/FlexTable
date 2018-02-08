@@ -1,0 +1,23 @@
+{
+  "name": "flextable",
+  "version": "1.0.0",
+  "description": "FlexTable: An high-customed Reactive Table Component ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "flow": "flow status",
+    "build-css": "node-less-chokidar css",
+    "watch-css": "node-less-chokidar css --watch"
+  },
+  "author": "Edward Qiu <qiu.kaixiang@puscene.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.63.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "node-less-chokidar": "^0.1.2"
+  }
+}

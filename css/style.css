@@ -1,0 +1,51 @@
+.mw-flexTable {
+  box-sizing: border-box;
+  position: relative;
+  overflow: auto;
+  width: 100%;
+  max-width: 100%;
+  background-color: #fff;
+  border: 1px solid #dfe6ec;
+  font-size: 14px;
+  color: #1f2d3d;
+}
+.mw-flexTable table {
+  table-layout: fixed;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  border-spacing: 0px;
+  border: 0px;
+}
+.mw-flexTable table tr {
+  line-height: 40px;
+}
+.mw-flexTable table tr:hover {
+  background-color: #eef1f6;
+}
+.mw-flexTable table th,
+.mw-flexTable table td {
+  height: 40px;
+  border-right: 1px solid #dfe6ec;
+  border-bottom: 1px solid #dfe6ec;
+  word-wrap: break-word;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.mw-flexTable table thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  background-color: #eef1f6;
+}
+.mw-flexTable table thead td {
+  font-weight: bold;
+}
+.mw-flexTable table .fixed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 1px 0 8px #d3d4d6;
+  overflow-x: hidden;
+  background-color: red;
+}
