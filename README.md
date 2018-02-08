@@ -19,6 +19,19 @@
 - column sortable
 - multiple custom styles with row and column
 
+## Install
+
+```
+git clone git@github.com:bazingaedward/FlexTable.git
+cd FlexTable
+yarn install
+
+// common commands
+yarn flow // check source code types with Flow
+yarn build-css // 在css目录下less编译css
+yarn watch-css // 自动监测css变化并编译，建议新开一个terminal
+
+```
 
 ## Usage
 
